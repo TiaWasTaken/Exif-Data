@@ -22,6 +22,11 @@ npm install chalk
 
 ## How To Set It Up
 In order to set this program up it is important to create a directory called "images" inside the main directory which contains the program. You will then be able to move or copy your jpg images inside the directory.
+
+```sh
+mkdir images
+```
+
 After doing that you can run the script and choose the output format.
 
 ### Output Format
