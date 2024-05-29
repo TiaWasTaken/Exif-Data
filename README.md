@@ -27,6 +27,38 @@ In order to set this program up it is important to create a directory called "im
 mkdir images
 ```
 
+### ESLint Configuration
+In order to set the program you will need to set the configuration of ESLint. This passage will be completely automatic
+
+```sh
+npm install eslint --save-dev
+```
+
+Now run the following line and answer the questions.
+```sh
+npx eslint --init
+
+You can also run this command directly using 'npm init @eslint/config@latest'.
+
+✔ How would you like to use ESLint? · problems
+
+✔ What type of modules does your project use? · esm
+
+✔ Which framework does your project use? · none
+
+✔ Does your project use TypeScript? · javascript
+
+✔ Where does your code run? · browser
+
+The config that you've selected requires the following dependencies:
+
+eslint@9.x, globals, @eslint/js
+
+✔ Would you like to install them now? · No / Yes (Yes)
+
+✔ Which package manager do you want to use? · npm
+```
+
 After doing that you can run the script and choose the output format.
 
 ### Output Format
